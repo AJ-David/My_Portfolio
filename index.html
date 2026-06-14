@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Portfolio styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav>
+      <div class="nav-inner">
+        <a class="nav-logo" href="#hero">David<span>.</span></a>
+
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- Theme toggle -->
+          <button id="theme-toggle" aria-label="Toggle theme"></button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="hero-wrap">
+        <div class="hero-tag">Open to Hire</div>
+        <h1 class="hero-name">Ajayi-Ogundana<br /><span>David</span></h1>
+        <p class="hero-sub">Frontend Developer &nbsp;·&nbsp; IT Student</p>
+        <p class="hero-bio">
+          I build clean, responsive web interfaces — focused on making things
+          work well and look sharp across every screen size.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-accent">View Projects</a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+      <div class="section-wrap">
+        <p class="section-label">Background</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-photo-col">
+            <div class="photo-frame">
+              <img
+                src="/images/myimage.jpeg"
+                alt="David"
+                style="width: 110%; border-radius: 10px"
+              />
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a final-year Information Technology student at Redeemer's
+              University, Ede, with a focus on frontend web development. My work
+              spans responsive UI design, translating mockups into
+              pixel-accurate pages, and building personal projects from the
+              ground up using modern tools and frameworks.
+            </p>
+            <p>
+              I have a genuine drive to keep learning. Every project — whether
+              it's a challenge from Frontend Mentor or something I built from my
+              own idea — has been a chance to push my understanding further, and
+              that's something I actively look for. I'm the kind of person who
+              reads the docs, experiments, breaks things, and figures out why.
+            </p>
+            <p>
+              I'm actively seeking opportunities where I can contribute real
+              work while continuing to grow. I want to be in an environment that
+              challenges me, teaches me things I wouldn't find on my own, and
+              lets me build things that actually matter. Outside of web dev, I'm
+              currently wrapping up my undergraduate thesis on Wi-Fi network
+              optimization in high-density environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills">
+      <div class="section-wrap">
+        <p class="section-label">What I Work With</p>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Technical</div>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag"
+              >WordPress
+              <span style="font-size: 0.68rem; opacity: 0.6"
+                >(surface level)</span
+              ></span
+            >
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Core Competencies</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Responsive Web Design</span>
+            <span class="skill-tag">Mobile-First Development</span>
+            <span class="skill-tag">DOM Manipulation</span>
+            <span class="skill-tag">Debugging &amp; Problem Solving</span>
+            <span class="skill-tag">Version Control Awareness</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Tools</div>
+          <div class="skill-tags">
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Vercel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+      <div class="section-wrap">
+        <p class="section-label">Work</p>
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Personal Portfolio -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <h3>Demo Personal Portfolio</h3>
+              <a
+                href="https://demo-portfolio-dlbx.vercel.app"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                title="View live site"
+              >
+                <i class="bi bi-arrow-up-right-square"></i>
+              </a>
+            </div>
+            <p>
+              Fully responsive portfolio site to showcase projects and technical
+              skills, with modern Tailwind UI styling and clear content
+              structure.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <!-- <span class="stack-tag">Tailwind CSS</span> -->
+              <span class="stack-tag">Vercel</span>
+            </div>
+          </div>
+
+          <!-- RUN Guesthouse -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <h3>RUN Guesthouse Website</h3>
+              <a
+                href="https://run-guest-house.vercel.app"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                title="View live site"
+              >
+                <i class="bi bi-arrow-up-right-square"></i>
+              </a>
+            </div>
+            <p>
+              Multi-section guesthouse site covering services, rooms, and
+              booking info — focused on clean layout and user-friendly
+              navigation.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <span class="stack-tag">JavaScript</span>
+              <span class="stack-tag">Vercel</span>
+            </div>
+          </div>
+
+          <!-- FitGym -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <h3>FitGym Website</h3>
+              <a
+                href="https://fit-gym-kohl.vercel.app"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                title="View live site"
+              >
+                <i class="bi bi-arrow-up-right-square"></i>
+              </a>
+            </div>
+            <p>
+              Fitness landing page with visually engaging sections for services
+              and membership plans, with JavaScript-powered dynamic UI elements.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <span class="stack-tag">Bootstrap</span>
+              <span class="stack-tag">JavaScript</span>
+              <span class="stack-tag">Vercel</span>
+            </div>
+          </div>
+
+          <!-- UX Writing Agency -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <h3>UX Writing Agency Page (Made private in Github)</h3>
+              <a
+                href="https://rosebridge.vercel.app"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                title="View live site"
+              >
+                <i class="bi bi-arrow-up-right-square"></i>
+              </a>
+            </div>
+            <p>
+              Conversion-focused landing page built around content hierarchy and
+              structured typography to drive user engagement.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <span class="stack-tag">JavaScript</span>
+              <span class="stack-tag">Bootstrap</span>
+              <span class="stack-tag">Vercel</span>
+            </div>
+          </div>
+
+          <!-- Frontend Mentor -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <h3>Frontend Mentor Challenges</h3>
+              <a
+                href="https://github.com/AJ-David"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                title="View on GitHub"
+              >
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+            <p>
+              A collection of real-world UI challenges built from design files —
+              practising pixel-perfect accuracy and cross-device responsiveness.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <span class="stack-tag">Bootstrap</span>
+              <span class="stack-tag">Tailwind CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="section-wrap">
+        <p class="section-label">Reach Out</p>
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-grid">
+          <a href="mailto:fiyinjoba10@gmail.com" class="contact-card">
+            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+            <div class="contact-text">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">fiyinjoba10@gmail.com</span>
+            </div>
+          </a>
+
+          <a href="tel:+2349059912770" class="contact-card">
+            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+            <div class="contact-text">
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+234 802 146 4287</span>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/AJ-David"
+            target="_blank"
+            rel="noopener"
+            class="contact-card"
+          >
+            <div class="contact-icon"><i class="bi bi-github"></i></div>
+            <div class="contact-text">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">AJ-David</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      © 2025 Ajayi-Ogundana David &nbsp;·&nbsp; Built with
+      <span>Bootstrap</span>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Portfolio JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
